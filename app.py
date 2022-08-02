@@ -12,7 +12,7 @@ import pickle
 
 
 app = Flask(__name__)
-model = pickle.load(open('Project3_KNN.pkl','rb')) 
+model = pickle.load(open('KNN_Project4.pkl','rb')) 
 
 
 @app.route('/')
